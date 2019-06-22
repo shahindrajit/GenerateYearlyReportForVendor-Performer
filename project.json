@@ -1,0 +1,40 @@
+{
+  "name": "GenerateYearlyReportForVendor",
+  "description": "Generate Yearly Report For Vendor",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.6.0]",
+    "UiPath.Mail.Activities": "[1.5.0]",
+    "UiPath.System.Activities": "[19.5.0]",
+    "UiPath.UIAutomation.Activities": "[19.5.0]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "18.3.0.558",
+  "projectVersion": "1.0.6846.21553",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "OrchestratorQueueName",
+        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": false
+      }
+    ],
+    "output": []
+  },
+  "webServices": []
+}
